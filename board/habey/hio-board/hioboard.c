@@ -631,7 +631,7 @@ int board_late_init(void)
 	
 	
 	//add usb-update
-	run_command("fatcheckupdate", 0);
+	//run_command("fatcheckupdate", 1);
 	
 	return 0;
 }
